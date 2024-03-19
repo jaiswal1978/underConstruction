@@ -10,7 +10,7 @@ function App() {
     <div className='AnnimationContainer'>
         <Lottie className='animationdata' animationData={underConstruction} loop={true} />
         <h1>Chirayu Medical Assure</h1>
-        <h2>Healthcare Administration Services</h2>
+        <h2>Your Partner in Healthcare Administration Services</h2>
     </div>
     </>
   );
