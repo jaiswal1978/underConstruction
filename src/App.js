@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Lottie from 'lottie-react';
 import underConstruction from '../src/assests/images/underConstruction1.json';
