@@ -8,8 +8,30 @@
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  position: relative; /* Added */
+  display: flex; /* Added */
+  flex-direction: column; /* Added */
+  justify-content: flex-end; /* Added */
 }
 .animationdata{
   width: 100%;
-  height: 100%;
+  height: 70%;
+}
+
+h1, h2 {
+  text-align: center; /* Center the text */
+  margin: 0; /* Remove default margins */
+  padding: 10px; /* Add padding for better readability */
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 48px;
+  color: #405B91;
+  font-weight: 900;
+}
+h2  {
+  color: #ABB7CF;
+  font-weight: 400;
+  
 }
