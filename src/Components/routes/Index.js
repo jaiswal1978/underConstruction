@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
+// import { ReactDOM } from 'react';
 import Index from '../home/Index';
 import ImagesStories from '../Instastories/ImageStories';
 import VideoStories from '../Instastories/VideoStories';
@@ -7,7 +8,12 @@ import ImageVideoStories from '../Instastories/ImageVideoStories';
 import ComponentStories from '../Instastories/ComponentStories';
 import HeaderStories from '../Instastories/HeaderStories';
 import SeeMore from '../Instastories/SeeMore';
-import Webstories from '../home/webstories';
+// import MyWebStory from '../Instastories/MyWebStory';
+
+// import Ampexample from '../Instastories/ampexample';
+// import Webstories from '../home/webstories';
+// import { ReactDOM } from 'react-dom/client';
+// import { render } from '@testing-library/react';
 
 function App() {
   return (
@@ -20,7 +26,8 @@ function App() {
             <Route path='/component_stories' element={<ComponentStories/>}/>
             <Route path='/header_stories' element={<HeaderStories/>}/>
             <Route path='/see_more' element={<SeeMore />}/>
-            <Route path='/webstories' element={<Webstories/>}/>
+            {/* <Route path='/ampexample' element={<Ampexample/>}/> */}
+            {/* <Route path='/mywebstory' element={<MyWebStory/>}/> */}
         </Routes>
     </div>
   )
